@@ -15,6 +15,7 @@ class Anagram
        wrd
      end
   end
+  words.compact
   end
       
     
