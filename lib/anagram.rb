@@ -12,9 +12,9 @@ class Anagram
   def match(words)
     words.map do |wrd|
      if wrd.split("").sort == @word.split("").sort
+       wrd
      end
   end
-   words.compact
   end
       
     
