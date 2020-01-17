@@ -15,6 +15,7 @@ class Anagram
     end
     words.compact
   end
+  end
       
     
 end
