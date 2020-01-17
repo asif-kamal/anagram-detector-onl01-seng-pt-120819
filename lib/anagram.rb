@@ -12,7 +12,6 @@ class Anagram
   def match(words)
     words.each do |wrd|
       if wrd.split("").sort == @word.split("").sort
-        binding.pry
         wrd
       end
     end
